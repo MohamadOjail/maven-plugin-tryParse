@@ -5,6 +5,13 @@ package online.ojail;
  */
 public class _Parser {
     /**
+     * Default constructor
+     */
+    public _Parser() {
+    }
+
+    /**
+     * This method will try to parse to Integer
      * @param userInput the data to be parsed
      * @param refOut the out variable that will get a value after trying to parse
      * @return true: success, false: failure
@@ -25,6 +32,7 @@ public class _Parser {
     }
 
     /**
+     * This method will try to parse to Double
      * @param userInput the data to be parsed
      * @param refOut the out variable that will get a value after trying to parse
      * @return true: success, false: failure
