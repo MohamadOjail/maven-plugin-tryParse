@@ -15,8 +15,8 @@ the class also has a built in ``toString()`` method.
 
 ### _Parser Class:
 this class has two public methods:
-- ``tryParseInt( String incomingData, _RefObj out )``.
-- ``tryParseDouble( String incomingData, _RefObj out )``.
+- ``tryParseInt( incomingData, _RefObj out )``.
+- ``tryParseDouble( incomingData, _RefObj out )``.
 
 as expected from simulating the C# method ``.tryParse()`` the methods would try to parse the incoming data to the desired data type and set the value to the _Ref object provided in the method parameters.
 > in case of failure the value of _Ref object will be set to null.
