@@ -6,7 +6,7 @@
 
     <groupId>io.github.mohamadojail</groupId>
     <artifactId>Java-tryParse-maven-plugin</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.0</version>
 
     <name>Java tryParse</name>
     <description>A simple library used for trying to parse data to Integer or Double</description>
