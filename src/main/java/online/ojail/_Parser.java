@@ -1,6 +1,8 @@
 package online.ojail;
 
 /**
+ * @author Mohamad Ojail - <a href="http://ojail.online">Link to website</a>
+ * @version 1.0.0
  * Parser class
  */
 public class _Parser {
@@ -17,7 +19,7 @@ public class _Parser {
      * @return true: success, false: failure
      * @param <T> the data type provided by user
      */
-    public static <T> boolean tryParseInt(T userInput, Ref<Integer> refOut){
+    public static <T> boolean tryParseInt(T userInput, _Ref<Integer> refOut){
 
         // check if input is not null or empty
         if ( isNothing(userInput) ) {
@@ -25,7 +27,7 @@ public class _Parser {
             return false;
         }
 
-        Integer parsed = intParser(userInput); // try to parse
+        Integer parsed = parseInt(userInput); // try to parse
         refOut.setValue(parsed); // set the value of the out-reference variable
 
         return parsed != null;
@@ -38,7 +40,7 @@ public class _Parser {
      * @return true: success, false: failure
      * @param <T> the data type provided by user
      */
-    public static <T> boolean tryParseDouble(T userInput, Ref<Double> refOut){
+    public static <T> boolean tryParseDouble(T userInput, _Ref<Double> refOut){
 
         // check if input is not null or empty
         if ( isNothing(userInput) ) {
@@ -46,7 +48,7 @@ public class _Parser {
             return false;
         }
 
-        Double parsed = doubleParser(userInput); // try to parse
+        Double parsed = parseDouble(userInput); // try to parse
         refOut.setValue(parsed); // set the value of the out-reference variable
 
         return parsed != null;
@@ -68,7 +70,7 @@ public class _Parser {
      * @return Integer: success, null: failure
      * @param <T> the data type provided
      */
-    private static <T> Integer intParser(T input) {
+    private static <T> Integer parseInt(T input) {
 
         try {
             return Integer.parseInt((String) input); // if success
@@ -84,7 +86,7 @@ public class _Parser {
      * @return Integer: success, null: failure
      * @param <T> the data type provided
      */
-    private static <T> Double doubleParser(T input) {
+    private static <T> Double parseDouble(T input) {
 
         try {
             return Double.parseDouble((String) input); // if success
