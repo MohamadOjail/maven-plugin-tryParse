@@ -3,7 +3,7 @@ package online.ojail;
 /**
  * @author Mohamad Ojail - <a href="http://ojail.online">Link to website</a>
  * @version 1.0.0
- * @description: this class will serve as a template for creating a reference object
+ * this class will serve as a template for creating a reference object
  * @param <X> choose Integer or Double
  */
 public class _Ref<X>{
