@@ -1,7 +1,7 @@
 [![](https://img.shields.io/maven-central/v/io.github.mohamadojail/Java-tryParse-maven-plugin?style=for-the-badge&logo=apachemaven)](https://search.maven.org/artifact/io.github.mohamadojail/Java-tryParse-maven-plugin)
  ![](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
  ![](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)
- [![](https://img.shields.io/badge/My%20website-ojail.online-blue?style=for-the-badge)](https://ojail.se/)
+ [![](https://img.shields.io/badge/My%20website-ojail.se-blue?style=for-the-badge)](https://ojail.se/)
  [![](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ojail/)
 
 ## Java tryParse
